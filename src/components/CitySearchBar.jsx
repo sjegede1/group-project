@@ -1,8 +1,15 @@
-import React from 'react'
+import React, {} from 'react'
 
 function CitySearchBar() {
+  const handleSubmit=(event)=>{
+    
+  }
   return (
-    <div>CitySearchBar</div>
+    <div>
+      <form onSubmit={handleSubmit}>
+        <input type='text' name='searchTerm'/>
+      </form>
+    </div>
   )
 }
 
