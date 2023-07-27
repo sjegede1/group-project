@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Main from './components/Main';
+import {useEffect,useState,useContext} from 'react';
+import {AppContext} from './contexts/context'
 
 function App() {
+  let {getData} = useContext(AppContext)
+  useEffect(()=>{
+    getData();
+  },[])
   return (
     <div className="App">
-     <Main />
+      here
     </div>
   );
 }
