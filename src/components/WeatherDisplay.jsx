@@ -1,12 +1,11 @@
 import React,{useContext} from 'react'
-
 import {AppContext} from '../contexts/context'
 
 function WeatherDisplay() {
   let {data} = useContext(AppContext)
   const loaded = ()=>{
     return(
-          <div className="wdInfo">
+      <div className="wdInfo">
       <img src={data.current.condition.icon} alt="" className="wdIcon"/>
       <div className="wdSubInfo">
         <div className="wdTemperature">{data.current.temp_f}° F</div>
