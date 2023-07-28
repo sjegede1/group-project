@@ -69,6 +69,16 @@ h1.wdTemperature {
 
 .locationTime {
   justify-content: space-around;
+
+ }
+.aqi1{
+  border: solid black;
+  display: block;
+  
+}
+.aqiInfo{
+  border: solid gray;
+
   border: solid blue;
 }
 
@@ -110,4 +120,5 @@ h1.wdTemperature {
 }
 .moonphaseImg{
   height:200px;
+
 }
