@@ -1,13 +1,19 @@
-import React, {} from 'react'
+import React, {useContext} from 'react'
+import {AppContext} from '../contexts/context'
 
 function CitySearchBar() {
-  const handleSubmit=(event)=>{
-    
+  let {location,setLocation,getData}=useContext(AppContext)
+  const handleSubmit = (event)=>{
+    event.preventDefault()
+    getData()
   }
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type='text' name='searchTerm'/>
+        <input type="text" id="usrInput" name="usrInput" value={location} onChange={(event)=>{
+          setLocation(event.target.value)
+        }}/>
+        <input type="submit" value="submit"/>
       </form>
     </div>
   )
