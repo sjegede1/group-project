@@ -1,6 +1,6 @@
-import React,{useContext} from 'react'
+import React, { useContext } from "react";
 
-import {AppContext} from '../contexts/context'
+import { AppContext } from "../contexts/context";
 
 function WeatherDisplay() {
   let {data} = useContext(AppContext)
@@ -25,4 +25,4 @@ function WeatherDisplay() {
   return data ? loaded():loading();
 }
 
-export default WeatherDisplay
+export default WeatherDisplay;
