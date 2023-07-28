@@ -105,3 +105,9 @@ h1.wdTemperature {
   border: none;
   border-radius: 1em 0 0 1em;
 }
+.alertIcon{
+  height:25px;
+}
+.moonphaseImg{
+  height:200px;
+}
