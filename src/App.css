@@ -9,3 +9,16 @@
   margin-inline: auto;
   overflow-x: scroll;
 }
+.wdInfo{
+  display:flex;
+  justify-content: center;
+}
+.wdIcon{
+  height:150px;
+  width:150px;
+}
+.wdSubInfo{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
