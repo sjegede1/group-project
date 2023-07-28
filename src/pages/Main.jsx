@@ -9,8 +9,10 @@ import DailyForecast from '../components/DailyForecast'
 function Main() {
   return (
     <div className="main-page">
+      <div className="locationTime">
         <City />
         <CurrentTime />
+        </div>
         <WeatherDisplay />
         <HourlyForecast />
         <DailyForecast />

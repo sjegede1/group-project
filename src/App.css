@@ -22,6 +22,7 @@
   flex-direction:column;
   justify-content: center;
 }
+
 .forecastday{
   border: solid grey;
   display: flex;
@@ -34,6 +35,8 @@
   border:  solid rgb(165, 165, 97);
   margin: 8px;
   width: 98px;
- 
-  
 }
+.locationTime{
+  display:flex;
+  justify-content: space-around;
+ }
