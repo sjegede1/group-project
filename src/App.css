@@ -22,3 +22,7 @@
   flex-direction:column;
   justify-content: center;
 }
+.locationTime{
+  display:flex;
+  justify-content: space-around;
+}
