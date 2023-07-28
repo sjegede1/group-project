@@ -9,7 +9,7 @@
 .forecast-carousel {
   display: flex;
   width: 80vw;
-  border: solid grey;
+  /* border: solid grey; */
   margin-inline: auto;
   overflow-x: scroll;
 }
@@ -17,7 +17,7 @@
 .wdInfo {
   display: flex;
   justify-content: center;
-  border: solid thin red;
+  /* border: solid thin red; */
   margin: 1em 0px;
   text-align: right;
 }
@@ -48,7 +48,7 @@ h1.wdTemperature {
 }
 
 .forecastday {
-  border: solid grey;
+  /* border: solid grey; */
   display: flex;
   margin: 1em auto;
   padding: 0.5em;
