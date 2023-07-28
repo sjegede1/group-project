@@ -22,7 +22,16 @@
   flex-direction:column;
   justify-content: center;
 }
+ .forecastday{
+  border: solid gray;
+  display: flex;
+  margin: 20px;
+}
+.forecast-daily{
+  border:  solid green;
+  margin: 23px;
+}
 .locationTime{
   display:flex;
   justify-content: space-around;
-}
+ }
