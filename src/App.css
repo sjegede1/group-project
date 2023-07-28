@@ -90,6 +90,9 @@ h1.wdTemperature {
   height: 3em;
   border-radius: 1em;
   background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .search-bar-form {
   height: 100%;
@@ -104,13 +107,18 @@ h1.wdTemperature {
 }
 
 .search-icon {
-  height: 60%
+  height: 60%;
+}
+
+.search-bar-form {
+  display: flex;
+  align-items: center;
 }
 
 .search-bar-input {
-  height: 100%;
+  height:100%;
   width: 200px;
-  font-size: 1.2em;
+  font-size: 1em;
   background: transparent;
   border: none;
   border-radius: 1em 0 0 1em;
@@ -121,4 +129,21 @@ h1.wdTemperature {
 .moonphaseImg{
   height:200px;
 
+}
+
+@font-face {
+  font-family: 'digital-7';
+  src: url('./assets/fonts/digital-7.ttf');
+}
+.current-time {
+  font-family: digital-7;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: burlywood;
+  color: aliceblue;
+  width: fit-content;
+  padding: 0.25em;
+  margin: 0.5em auto;
+  border: solid grey;
+  border-radius: 5px;
 }
