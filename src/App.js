@@ -6,9 +6,9 @@ import Main from './pages/Main';
 import Alerts from './pages/Alerts';
 
 function App() {
-  let {getData} = useContext(AppContext)
+  let {location,getData} = useContext(AppContext)
   useEffect(()=>{
-    getData();
+    getData("dallas");
   },[])
   return (
     <div className="App">
