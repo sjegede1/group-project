@@ -93,12 +93,15 @@ h1.wdTemperature {
   border: none;
 }
 
+.search-icon {
+  height: 60%
+}
+
 .search-bar-input {
   height: 100%;
   width: 200px;
   font-size: 1.2em;
   background: transparent;
   border: none;
-  border-right: solid thin grey;
   border-radius: 1em 0 0 1em;
 }

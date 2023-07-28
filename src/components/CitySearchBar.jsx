@@ -17,7 +17,7 @@ function CitySearchBar() {
       <form onSubmit={handleSubmit} className='search-bar-form'>
         <input type="text" id="area" name="area" value={location.area} onChange={handleChange} className='search-bar-input' />
         <button type="submit" className='submit-button'>
-          Submit
+          <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" alt="" className='search-icon' />
         </button>
       </form>
     </div>
