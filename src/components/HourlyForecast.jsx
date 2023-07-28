@@ -18,20 +18,17 @@ function HourlyForecast() {
   let hhFormatter = (time) => { return String(time.getHours()).length == 2 ? String(time.getHours()) : `0${String(time.getHours())}`};
 
   return (
-    <div className="hourly-forecast">
-      <h3>Hourly Forecast</h3>
       <div className="forecast-carousel">
         {hourlyArray.map((hour, index) => {
           return (
             <div className="forecast-hour" key={index}>
               <h5>{hhFormatter(new Date(hour.time))}00</h5>
               <img src={hour.condition.icon} alt="" />
-              <p>{hour.condition.temp_f}</p>
+              <p>{parseInt(hour.temp_f)}°</p>
             </div>
           );
         })}
       </div>
-    </div>
   );
 }
 
