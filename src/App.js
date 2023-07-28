@@ -3,7 +3,7 @@ import {useEffect,useState,useContext} from 'react';
 import {AppContext} from './contexts/context';
 import {Route, Routes} from "react-router-dom"
 import Main from './pages/Main';
-import Alerts from './pages/Alert';
+import Alerts from './pages/Alerts';
 
 function App() {
   let {getData} = useContext(AppContext)
