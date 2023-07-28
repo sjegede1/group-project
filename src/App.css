@@ -29,7 +29,6 @@
   width: 80vw;
   margin-inline: auto;
   height: 230px;
- 
 }
 .forecast-daily{
   border:  solid rgb(165, 165, 97);
@@ -40,3 +39,9 @@
   display:flex;
   justify-content: space-around;
  }
+.alertIcon{
+  height:25px;
+}
+.moonphaseImg{
+  height:200px;
+}
