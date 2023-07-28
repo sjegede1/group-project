@@ -17,7 +17,7 @@ We built this app to using 6 React components
  Mockup of our mobile view
 
 ## Component Hierachy
-![React Component Heirachy](/readme-assets/React%20Component%20Heirachy.PNG)
+![React Component Heirachy](/readme-assets/React%20Component%20Heirachy.png)
 
 ## API Reference
 We used weatherapi.com found [here](https://www.weatherapi.com/api-explorer.aspx)
