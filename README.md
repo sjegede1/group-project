@@ -12,5 +12,22 @@ We built this app to using 6 React components
 - The 3-day forecast
 - A search bar to change the city or zipcode of the weather data  
 
-## Mockups 
+## Wireframes 
  ![Mobile View Mockup](/readme-assets/Weather%20App%20Mobile%20View.png)
+ Mockup of our mobile view
+
+## Component Hierachy
+![React Component Heirachy](/readme-assets/React%20Component%20Heirachy.PNG)
+
+## API Reference
+We used weatherapi.com found [here](https://www.weatherapi.com/api-explorer.aspx)
+## MVP
+Our weather app had the following requirments to be considered complete
+- Fully functional react components listed above in the description
+- Responsive design (Mobile, Tablet and Desktop view)
+- Two pages ( Main and Alert)
+- Complete styling
+  - Make the app look like a complete website with a nav bar, main section and footer.
+## Future Work
+
+
