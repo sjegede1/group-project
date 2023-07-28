@@ -15,8 +15,10 @@ function CitySearchBar() {
   return (
     <div className='search-bar'>
       <form onSubmit={handleSubmit} className='search-bar-form'>
-        <input type="text" id="area" name="area" value={location.area} onChange={handleChange}/>
-        <input type="submit" value="submit"/>
+        <input type="text" id="area" name="area" value={location.area} onChange={handleChange} className='search-bar-input' />
+        <button type="submit" className='submit-button'>
+          Submit
+        </button>
       </form>
     </div>
   )
