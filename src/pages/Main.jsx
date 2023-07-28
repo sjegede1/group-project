@@ -1,10 +1,10 @@
-import React from 'react'
-import CitySearchBar from '../components/CitySearchBar'
-import City from '../components/City'
-import WeatherDisplay from '../components/WeatherDisplay'
-import CurrentTime from '../components/CurrentTime'
-import HourlyForecast from '../components/HourlyForecast'
-import DailyForecast from '../components/DailyForecast'
+import React from "react";
+import CitySearchBar from "../components/CitySearchBar";
+import City from "../components/City";
+import WeatherDisplay from "../components/WeatherDisplay";
+import CurrentTime from "../components/CurrentTime";
+import HourlyForecast from "../components/HourlyForecast";
+import DailyForecast from "../components/DailyForecast";
 
 function Main() {
   return (
@@ -12,13 +12,13 @@ function Main() {
       <div className="locationTime">
         <City />
         <CurrentTime />
-        </div>
-        <WeatherDisplay />
-        <HourlyForecast />
-        <DailyForecast />
-        <CitySearchBar />
+      </div>
+      <WeatherDisplay />
+      <HourlyForecast />
+      <DailyForecast />
+      <CitySearchBar />
     </div>
-  )
+  );
 }
 
-export default Main
+export default Main;
