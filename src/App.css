@@ -23,11 +23,17 @@
   justify-content: center;
 }
 .forecastday{
-  border: solid gray;
+  border: solid grey;
   display: flex;
-  margin: 20px;
+  width: 80vw;
+  margin-inline: auto;
+  height: 230px;
+ 
 }
 .forecast-daily{
-  border:  solid green;
-  margin: 23px;
+  border:  solid rgb(165, 165, 97);
+  margin: 8px;
+  width: 98px;
+ 
+  
 }
