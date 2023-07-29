@@ -53,6 +53,7 @@ h1.wdTemperature {
   margin: 1em auto;
   padding: 0.5em;
   overflow-x: scroll;
+  width: fit-content;
 }
 
 .forecast-daily {
