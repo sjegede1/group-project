@@ -11,7 +11,7 @@ function CurrentTime() {
   let mm = String(timeNow.getMinutes()).length == 2 ? String(timeNow.getMinutes()) : `0${String(timeNow.getMinutes())}`;
   let ss = String(timeNow.getSeconds()).length == 2 ? String(timeNow.getSeconds()) : `0${String(timeNow.getSeconds())}`;
   return (
-    <div className="currrent-time">
+    <div className="current-time">
       {hh}:{mm}:{ss}
     </div>
   )
