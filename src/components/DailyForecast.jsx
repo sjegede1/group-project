@@ -15,7 +15,7 @@ function DailyForecast() {
         return (
           <div className="forecast-daily" key={index}>
             <h5>{day.date} </h5>
-            <img src={day.day.condition.icon} alt="" />
+            <img src={day.day.condition.icon} alt="" className="dailyForecastImg"/>
             <p>
               {parseInt(day.day.maxtemp_f)}°/{parseInt(day.day.mintemp_f)}°
             </p>
