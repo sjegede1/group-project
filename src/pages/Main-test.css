@@ -1,0 +1,64 @@
+/* ==============MOBILE============= */
+@media (min-width: 0px) and (max-width: 450px) {
+  .App {
+    background-color: yellow;
+  }
+
+  .main-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    justify-content: space-between;
+  }
+
+  .dskMain > * {
+    border: solid red;
+  }
+
+  .dskMain {
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    justify-content: space-between;
+  }
+
+  .locationTime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+  }
+  
+  .locationTime > * {
+    border: solid green;
+    margin-inline: 1em;
+  }
+
+  @font-face {
+    font-family: "digital-7";
+    src: url("../assets/fonts/digital-7.ttf");
+  }
+  .current-time {
+    font-family: digital-7;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: burlywood;
+    color: aliceblue;
+    width: fit-content;
+    padding: 0.25em;
+    border: solid 2px grey;
+    border-radius: 5px;
+  }
+
+  .dskMainRight {
+    display: none;
+  }
+}
+
+/* =============TABLET========== */
+@media (min-width: 451px) and (max-width: 900px) {
+}
+
+@media (min-width: 901px) {
+}

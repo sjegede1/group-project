@@ -7,6 +7,7 @@ import HourlyForecast from "../components/HourlyForecast";
 import DailyForecast from "../components/DailyForecast";
 import Nav from "../components/Nav";
 import Uv from "../components/Uv";
+import "./Main-test.css"
 
 function Main() {
   return (
