@@ -15,6 +15,9 @@ We built this app to using 6 React components
 ## Wireframes 
  ![Mobile View Mockup](/readme-assets/Weather%20App%20Mobile%20View.png)
  Mockup of our mobile view
+![Desktop View Mockup](/readme-assets/Weather%20App%20MainDesktop.png)
+![Alerts Page Mockup](/readme-assets/Weather%20App%20Alerts.png)
+
 
 ## Component Hierachy
 ![React Component Heirachy](/readme-assets/React%20Component%20Heirachy.png)
