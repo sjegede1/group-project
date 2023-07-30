@@ -5,23 +5,24 @@ import WeatherDisplay from "../components/WeatherDisplay";
 import CurrentTime from "../components/CurrentTime";
 import HourlyForecast from "../components/HourlyForecast";
 import DailyForecast from "../components/DailyForecast";
-import Uv from '../components/Uv'
+import Nav from "../components/Nav";
+import Uv from "../components/Uv";
 
 function Main() {
   return (
     <div className="main-page">
       <div className="dskMain">
-      <div className="locationTime">
-        <City />
-        <CurrentTime />
-      </div>
-      <WeatherDisplay />
-      <HourlyForecast />
-      <DailyForecast />
-      <CitySearchBar />
+        <div className="locationTime">
+          <City />
+          <CurrentTime />
+        </div>
+        <WeatherDisplay />
+        <HourlyForecast />
+        <DailyForecast />
+        <Nav />
       </div>
       <div className="dskMainRight">
-      <Uv />
+        <Uv />
       </div>
     </div>
   );

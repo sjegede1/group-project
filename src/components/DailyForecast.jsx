@@ -28,9 +28,9 @@ function DailyForecast() {
         return (
           <div className="forecast-daily" key={index}>
 
-            <h5>{getDayofTheWeek(day.date,index)}</h5>
-            <img src={day.day.condition.icon} alt="" className="dailyForecastImg"/>
-            <p>
+            <h6>{getDayofTheWeek(day.date,index)}</h6>
+            <img src={day.day.condition.icon} alt="" className="carousel-icon dailyForecastImg"/>
+            <p className="carousel-temp">
               {parseInt(day.day.maxtemp_f)}°/{parseInt(day.day.mintemp_f)}°
             </p>
           </div>

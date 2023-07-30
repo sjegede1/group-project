@@ -15,16 +15,20 @@ function HourlyForecast() {
   };
 
   const hourlyArray = data ? getHourlyArray() : [];
-  let hhFormatter = (time) => { return String(time.getHours()).length == 2 ? String(time.getHours()) : `0${String(time.getHours())}`};
+  let hhFormatter = (time) => {
+    let amPm = time.getHours() < 12 ? "AM" : "PM";
+    let currentHour = time.getHours() % 12 ? time.getHours()%12 : 12
+    return `${currentHour}${amPm}`
+  };
 
   return (
       <div className="forecast-carousel">
         {hourlyArray.map((hour, index) => {
           return (
             <div className="forecast-hour" key={index}>
-              <h5 className="hrForecastTime">{hhFormatter(new Date(hour.time))}00</h5>
-              <img src={hour.condition.icon} alt="" className="hrForecastImg"/>
-              <p>{parseInt(hour.temp_f)}°</p>
+              <h6 className="hrForecastTime">{hhFormatter(new Date(hour.time))}</h6>
+              <img src={hour.condition.icon} alt="" className="carousel-icon hrForecastImg"/>
+              <p className="carousel-temp">{parseInt(hour.temp_f)}°</p>
             </div>
           );
         })}
