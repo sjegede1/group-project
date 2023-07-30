@@ -5,6 +5,7 @@ import WeatherDisplay from "../components/WeatherDisplay";
 import CurrentTime from "../components/CurrentTime";
 import HourlyForecast from "../components/HourlyForecast";
 import DailyForecast from "../components/DailyForecast";
+import Nav from "../components/Nav";
 
 function Main() {
   return (
@@ -16,7 +17,8 @@ function Main() {
       <WeatherDisplay />
       <HourlyForecast />
       <DailyForecast />
-      <CitySearchBar />
+      {/* <CitySearchBar /> */}
+      <Nav />
     </div>
   );
 }

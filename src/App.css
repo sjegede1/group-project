@@ -122,7 +122,7 @@ h1.wdTemperature {
   border: solid thin grey;
   width: fit-content;
   padding: 0;
-  margin: 1em auto;
+  /* margin: 1em auto; */
   height: 3em;
   border-radius: 1em;
   background-color: aliceblue;
@@ -137,13 +137,13 @@ h1.wdTemperature {
 .submit-button {
   height: 100%;
   /* width: 1fr; */
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
   background: transparent;
   border: none;
 }
 
-.search-icon {
-  height: 60%;
+.nav-icon {
+  height: 2em;
 }
 
 .search-bar-form {
@@ -153,7 +153,7 @@ h1.wdTemperature {
 
 .search-bar-input {
   height:100%;
-  width: 200px;
+  width: 150px;
   font-size: 1em;
   background: transparent;
   border: none;
@@ -182,4 +182,14 @@ h1.wdTemperature {
   /* margin: 0.5em auto; */
   border: solid 2px grey;
   border-radius: 5px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar > * {
+  border: solid purple;
 }
