@@ -7,7 +7,7 @@ function City() {
   const loaded = ()=>{
       return (
     <div>
-      {data.location.name}, {data.location.region}, {data.location.country}
+       {data.location.name}, {data.location.region}{/*, {data.location.country} */}
     </div>
   )
   }
