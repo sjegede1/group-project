@@ -9,12 +9,26 @@ function DailyForecast() {
     return <div className="forecastday"></div>;
   }
 
+  const getDayofTheWeek = (dateStr,index) => {
+    let date = new Date(dateStr);
+    let days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+    switch (index) {
+      case 0:
+        return "Today"
+      case 1:
+        return "Tomorrow";
+      default:
+        return days[date.getDay()]
+    }
+  }
+
   return (
     <div className="forecastday">
       {data.forecast.forecastday.map((day, index) => {
         return (
           <div className="forecast-daily" key={index}>
-            <h5>{day.date} </h5>
+
+            <h5>{getDayofTheWeek(day.date,index)}</h5>
             <img src={day.day.condition.icon} alt="" className="dailyForecastImg"/>
             <p>
               {parseInt(day.day.maxtemp_f)}°/{parseInt(day.day.mintemp_f)}°
