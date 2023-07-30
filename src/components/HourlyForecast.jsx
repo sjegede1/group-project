@@ -22,8 +22,8 @@ function HourlyForecast() {
         {hourlyArray.map((hour, index) => {
           return (
             <div className="forecast-hour" key={index}>
-              <h5>{hhFormatter(new Date(hour.time))}00</h5>
-              <img src={hour.condition.icon} alt="" />
+              <h5 className="hrForecastTime">{hhFormatter(new Date(hour.time))}00</h5>
+              <img src={hour.condition.icon} alt="" className="hrForecastImg"/>
               <p>{parseInt(hour.temp_f)}°</p>
             </div>
           );

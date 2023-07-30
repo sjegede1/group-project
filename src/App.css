@@ -30,6 +30,7 @@ h1.wdTemperature {
   height: 150px;
   width: 150px;
 }
+
 .wdSubInfo {
   display: flex;
   flex-direction: column;
@@ -64,6 +65,7 @@ h1.wdTemperature {
   padding: 0.5em 1em;
   border-radius: 1em;
 }
+
 .forecast-daily * {
   margin: 0;
 }
@@ -71,12 +73,17 @@ h1.wdTemperature {
 .locationTime {
   justify-content: space-around;
 
- }
-/* .aqi1{
-  display: block;
-  
+
 }
-.aqiInfo{
+
+.aqi1 {
+  border: solid black;
+
+  display: block;
+
+}
+
+.aqiInfo {
   border: solid gray;
 } */
 
@@ -92,6 +99,7 @@ h1.wdTemperature {
   justify-content: center;
   align-items: center;
 }
+
 .search-bar-form {
   height: 100%;
 }
@@ -121,12 +129,176 @@ h1.wdTemperature {
   border: none;
   border-radius: 1em 0 0 1em;
 }
-.alertIcon{
-  height:25px;
-  
+
+.alertIcon {
+  height: 25px;
 }
-.moonphaseImg{
+
+.moonphaseImg {
+  height: 200px;
+
+}
+
+@media (max-width: 1500px) {
+  .App {
+    text-align: center;
+    border: solid black;
+    padding: 2em;
+    background-color: #e3f4fe;
+    color: black;
+  }
+.main-page{
+  display:flex;
+  justify-content: space-around;
+}
+  .dskMain {
+    border-right: solid black;
+    width: 700px;
+    height: 550px;
+    padding-right:3.5em;
+  }
+  .forecast-carousel {
+    display: flex;
+    width: 100%;
+    height:130px;
+    /* border: solid grey; */
+    margin-inline: auto;
+    overflow-x: scroll;
+  }
+  .uv{
+    border-left:solid black;
+    display:flex;
+    flex-direction:column;
+    padding:2em;
+    align-content: center;
+    height:487px;
+    width:300px
+  }
+.uvInfo{
   height:200px;
+}
+.weatherGif{
+  border-radius: 20px;
+  height:200px;
+}
+  .wdInfo {
+    display: flex;
+    justify-content: center;
+    /* border: solid thin red; */
+    margin: 1em 0px;
+    text-align: right;
+    height:120px;
+  }
+  h1.wdTemperature {
+    margin: 0;
+  }
+  .wdIcon {
+    height: 150px;
+    width: 150px;
+  }
+  .wdSubInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .forecast-hour {
+    border: solid grey;
+    margin: 0.5em;
+    padding: 0.25em 1em;
+    border-radius: 1em;
+  }
+
+  .forecast-hour * {
+    margin: 0;
+    height:150px;
+  }
+.hrForecastImg{
+  height:50px;
+}
+.hrForecastTime{
+  height:15px;
+}
+  .forecastday {
+    /* border: solid grey; */
+    display: flex;
+    margin: 1em auto;
+    padding: 0.5em;
+    overflow-x: scroll;
+    height:120px;
+    justify-content: space-evenly;
+  }
+.dailyForecastImg{
+  height:45px;
+}
+  .forecast-daily {
+    border: solid rgb(165, 165, 97);
+    margin: 2px 8px;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    padding: 0.5em 1em;
+    border-radius: 1em;
+  }
+
+  .forecast-daily * {
+    margin: 0;
+  }
+
+  .locationTime {
+    justify-content: space-around;
+  }
+
+  .aqi1 {
+    border: solid black;
+    display: block;
+  }
+
+  .aqiInfo {
+    border: solid gray;
+    border: solid blue;
+  }
+
+  .search-bar {
+    border: solid thin grey;
+    width: fit-content;
+    padding: 0;
+    margin: 1em auto;
+    height: 3em;
+    border-radius: 1em;
+    background-color: aliceblue;
+  }
+
+  .search-bar-form {
+    height: 100%;
+  }
+
+  .submit-button {
+    height: 100%;
+    /* width: 1fr; */
+    font-size: 1.2em;
+    background: transparent;
+    border: none;
+  }
+
+  .search-icon {
+    height: 60%
+  }
+
+  .search-bar-input {
+    height: 100%;
+    width: 200px;
+    font-size: 1.2em;
+    background: transparent;
+    border: none;
+    border-radius: 1em 0 0 1em;
+  }
+
+  .alertIcon {
+    height: 25px;
+  }
+
+  .moonphaseImg {
+    height: 200px;
   
 }
 
@@ -209,6 +381,7 @@ h1.wdTemperature {
   }
  
 }
+  
 @media only screen and (min-width: 768px) {
   /* .App {
     background-color: #e3f4fe;
