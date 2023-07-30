@@ -6,7 +6,7 @@ function City() {
   let {data} = useContext(AppContext)
   const loaded = ()=>{
       return (
-    <div>
+    <div className='city'>
       {data.location.name}, {data.location.region}, {data.location.country}
     </div>
   )
