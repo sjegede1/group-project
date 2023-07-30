@@ -283,15 +283,15 @@ h1.wdTemperature {
     justify-content: space-around;
   }
 
-  .aqi1 {
+  /* .aqi1 {
     border: solid black;
     display: block;
-  }
+  } */
 
-  .aqiInfo {
+  /* .aqiInfo {
     border: solid gray;
     border: solid blue;
-  }
+  } */
 
   .search-bar {
     border: solid thin grey;
@@ -328,13 +328,13 @@ h1.wdTemperature {
     border-radius: 1em 0 0 1em;
   }
 
-  .alertIcon {
+  /* .alertIcon {
     height: 25px;
   }
 
   .moonphaseImg {
     height: 200px;
-  }
+  } */
 }
 
 @font-face {
