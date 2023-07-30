@@ -8,7 +8,7 @@ const loaded = ()=>{
   let usEPAIndexArray = {1: "Good", 2: "Moderate", 3: "Unhealthy for sensitive groups", 4: "Unhealthy", 5: "Very Unhealthy", 6: "Hazardous",}
   return (
     <div className="aqi1">
-        <h2>Air Quality Index</h2>
+        <h4>Air Quality Index</h4>
     <div className="aqiInfo">
       <div className="us-epa-index">US EPA Index: {data.current.air_quality["us-epa-index"]} - {usEPAIndexArray[data.current.air_quality["us-epa-index"]]}</div>
       <div className="co"> Co: {data.current.air_quality.co.toFixed(2)} µg/m<sup>3</sup></div>

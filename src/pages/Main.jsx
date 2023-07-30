@@ -6,10 +6,12 @@ import CurrentTime from "../components/CurrentTime";
 import HourlyForecast from "../components/HourlyForecast";
 import DailyForecast from "../components/DailyForecast";
 import Nav from "../components/Nav";
+import Uv from '../components/Uv'
 
 function Main() {
   return (
     <div className="main-page">
+      <div className="dskMain">
       <div className="locationTime">
         <City />
         <CurrentTime />
@@ -19,6 +21,10 @@ function Main() {
       <DailyForecast />
       {/* <CitySearchBar /> */}
       <Nav />
+      </div>
+      <div className="dskMainRight">
+      <Uv />
+      </div>
     </div>
   );
 }
