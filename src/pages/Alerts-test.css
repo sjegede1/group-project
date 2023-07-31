@@ -1,111 +1,44 @@
-@media  (min-width: 0px) and (max-width: 667px) {
-    .App {
-        background-color: #d4e0e7;
-        color: black;
-      }
-      
-      .locationTime {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(194, 169, 137);
-        border-radius: 5px;
-      
-        
-      }
-      
-      @font-face {
-        font-family: "digital-7";
-        src: url("../assets/fonts/digital-7.ttf");
-      }
-      .current-time {
-        font-family: digital-7;
-        font-size: 2em;
-        font-weight: bold;
-        background-color: rgb(233, 214, 214);
-        color: black;
-        width: fit-content;
-        padding: 0.25em;
-        margin: 0.5em auto;
-        border: solid grey;
-        border-radius: 10px;
-      }
-      .city {
-        font-size: 22px;
-        background-color: rgb(233, 214, 214);
-        margin-inline: 1em;
-        border-radius: 5px;
-        color: black;
-        border: solid grey;
-      }
-      .alertIcon {
-        height: 30px;
-      }
-      .alertInfo {
-        font-size: medium;
-      }
-      .moonphaseImg {
-        height: 200px;
-        margin-top: 20px;
-        border-radius: 10px;
-      }
-      .aqi1 {
-        padding: 0px;
-        margin: 0px;
-        display: block;
-        font-size: medium;
-        background-color: rgb(187, 162, 130);
-        border-radius: 5px;
-      }
-      h4 {
-        font-size: x-large;
-      }
-      .aqiInfo {
-        padding: 0px;
-        margin: 0px;
-        font-size: 20px;
-      }
-    }
-    
-  /* =============TABLET========== */
-  @media (min-width: 668px) and (max-width: 900px) {
+@media (min-width: 0px) and (max-width: 667px) {
   .App {
-    background-color: rgb(188, 136, 236);
     color: black;
   }
-  
-  .locationTime {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: burlywood;
-    border-radius: 5px;
+
+  .alertIcon {
+    height: 30px;
   }
-  
-  @font-face {
-    font-family: "digital-7";
-    src: url("../assets/fonts/digital-7.ttf");
+  .alertInfo {
+    font-size: medium;
   }
-  .current-time {
-    font-family: digital-7;
-    font-size: 2em;
-    font-weight: bold;
-    background-color: rgb(233, 214, 214);
-    color: black;
-    width: fit-content;
-    padding: 0.25em;
-    margin: 0.5em auto;
-    border: solid grey;
+  .moonphaseImg {
+    height: 200px;
+    margin-top: 20px;
     border-radius: 10px;
   }
-  .city {
-    font-size: 23px;
-    background-color: rgb(233, 214, 214);
-    margin-inline: 1em;
+  .aqi1 {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    font-size: medium;
+    background-color: #ad8b73;
     border-radius: 5px;
-    color: black;
-    border: solid grey;
   }
+  h4 {
+    font-size: x-large;
+  }
+  .aqiInfo {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+}
+
+/* =============TABLET========== */
+@media (min-width: 668px) and (max-width: 900px) {
+  .App {
+    color: black;
+  }
+
+
   .alertIcon {
     height: 30px;
   }
@@ -120,7 +53,7 @@
   .aqi1 {
     display: block;
     font-size: medium;
-    background-color: burlywood;
+    background-color: #ad8b73;
     border-radius: 5px;
   }
   h4 {
@@ -130,90 +63,55 @@
     padding: 0px;
     margin: 0px;
     font-size: 20px;
-    
   }
 }
 
-  @media (min-width: 901px) {
-    .App {
-        background-color: gray;
-        color: black;
-       
-      }
-     
-    .locationTime {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(124, 113, 113);
-        border-radius: 5px;
-        border: solid grey;
-      }
-      
-      @font-face {
-        font-family: "digital-7";
-        src: url("../assets/fonts/digital-7.ttf");
-      }
-      .current-time {
-        font-family: digital-7;
-        font-size: 2em;
-        font-weight: bold;
-        background-color: rgb(85, 84, 84);
-        color: aliceblue;
-        width: fit-content;
-        padding: 0.25em;
-        margin: 0.5em auto;
-        border: solid grey;
-        border-radius: 10px;
-      }
-      .city {
-        font-size: 25px;
-        margin-inline: 1em;
-        border-radius: 5px;
-        background-color: rgb(85, 84, 84);
-        color: white;
-      }
-      .alertIcon {
-        height: 30px;
-      }
-      h4 {
-        font-size: x-large;
-      }
-      .alertInfo {
-        width: 100%;
-        height:25px;
-        font-size: 20px;
-      }
-      .moonphaseImg {
-        width: 100%;
-        height: 200px;
-        margin-top: 20px;
-        border-radius: 10px;
-      }
-      .alertMessage {
-        width: 50%;
-        font-size: 20px;
-        /* margin-left: 10%; */
-      }
-      .alertImg {
-        width: 50%;
-        font-size: 20px;
-        /* margin-right: 10%; */
-      }
-      .alert {
-        display: flex;
-        font-size: 20px;
-        /* margin: 10px; */
-      }
-      .aqi1 {
-        display: block;
-        font-size: larger;
-        font-size: 20px;
-        background-color: rgb(124, 113, 113);
-      }
-      .aqiInfo {
-        font-size: 20px;
-      }
-
+@media (min-width: 901px) {
+  .App {
+    /* background-color: gray; */
+    color: black;
   }
-  
+
+  .alertIcon {
+    height: 30px;
+  }
+  h4 {
+    font-size: x-large;
+  }
+  .alertInfo {
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+  }
+  .moonphaseImg {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .alertMessage {
+    width: 50%;
+    font-size: 20px;
+    /* margin-left: 10%; */
+  }
+  .alertImg {
+    width: 50%;
+    font-size: 20px;
+    /* margin-right: 10%; */
+  }
+  .alert {
+    display: flex;
+    font-size: 20px;
+    /* margin: 10px; */
+  }
+  .aqi1 {
+    display: block;
+    font-size: larger;
+    font-size: 20px;
+    background-color: #ad8b73;
+    border-radius: 5px;
+  }
+  .aqiInfo {
+    font-size: 20px;
+  }
+}
