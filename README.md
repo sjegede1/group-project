@@ -16,7 +16,9 @@ We built this app to using 6 React components
  ![Mobile View Mockup](/readme-assets/Weather%20App%20Mobile%20View.png)
  Mockup of our mobile view
 ![Desktop View Mockup](/readme-assets/Weather%20App%20MainDesktop.png)
+Desktop View of Main Page
 ![Alerts Page Mockup](/readme-assets/Weather%20App%20Alerts.png)
+Mockup of alerts page
 
 
 ## Component Hierachy
@@ -32,5 +34,7 @@ Our weather app had the following requirments to be considered complete
 - Complete styling
   - Make the app look like a complete website with a nav bar, main section and footer.
 ## Future Work
+- Use state to track more detailed forecasts metrics such as precipitation and wind speed
+- Try to auto-detect the user's current location.
 
 
