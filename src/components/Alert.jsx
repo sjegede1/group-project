@@ -22,7 +22,7 @@ function Alert() {
                     <p className="alertInfo">Moonset: 
                         <img src="https://static.thenounproject.com/png/4669590-200.png" alt="" className="alertIcon"/>
                     {data.forecast.forecastday[0].astro.moonset}</p>
-                     </div>
+                </div>
                 <div className='alertImg'>
                     <img src="https://griffithobservatory.org/wp-content/uploads/2021/03/moon_phases_uppergraphic-scaled.jpg" alt="" className = "moonphaseImg"/>
                     <p className="alertInfo">Moon Phase: {data.forecast.forecastday[0].astro.moon_phase}</p>
