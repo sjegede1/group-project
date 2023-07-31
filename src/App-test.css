@@ -1,9 +1,7 @@
 .App {
     text-align: center;
-    border: solid black;
     padding: 2em;
-    background-color: #e3f4fe;
-    color: black;
+    background-color: #116A7B;
     display: flex;
     flex-direction: column;
     justify-content: center;
